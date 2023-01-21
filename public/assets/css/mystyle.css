@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.login,.register{
+	background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+}
+.kanan{
+   float:right;
+}
+.preview {
+  padding: 25px;
+}
+
+.img-preview {
+  padding: 5px;
+  height auto;
+  width: 200px;
+}
+
+.img-preview img {
+  max-width: 900px;
+  padding: 9px 30px;
+  border: 8px #ddd solid;
+}
+@media (max-width: 767px) { 
+
+}
+
+@media (max-width: 480px) { 
+.kanan{
+	float:none;
+}
+.btn-app{
+	size:50px;
+}
+}
